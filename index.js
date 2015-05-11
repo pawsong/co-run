@@ -3,9 +3,9 @@
 var exec = require('child_process').exec;
 
 var defaultOptions = {
-  stdout: process.stdout,
-  stderr: process.stderr,
-  stdin: process.stdin,
+  stdout: null,
+  stderr: null,
+  stdin: null
 };
 
 var optionKeys = Object.keys(defaultOptions);

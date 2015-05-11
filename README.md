@@ -31,7 +31,7 @@ Shell command to execute.
 ### options.stdout
 
 Type: `Writable Stream` or `Function`  
-Default: `process.stdout`
+Default: `null`
 
 child process's `stdout` handler.
 
@@ -41,7 +41,7 @@ If `Function` is given, it used as `data` event handler.
 ### options.stderr
 
 Type: `Writable Stream` or `Function`  
-Default: `process.stderr`
+Default: `null`
 
 child process's `stderr` handler. 
 
@@ -51,7 +51,7 @@ If `Function` is given, it used as `data` event handler.
 ### options.stdin
 
 Type: `Readable Stream`  
-Default: `process.stdin`
+Default: `null`
 
 Stream that is used as child process's `stdin`.  
 

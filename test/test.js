@@ -194,7 +194,8 @@ describe('co-run', function () {
       ret = yield run('./stdin.sh', {
         stdout: function (data) {
           result += data;
-        }
+        },
+        stdin: process.stdin
       }, {
         cwd: __dirname + '/fixtures'
       });
