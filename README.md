@@ -2,6 +2,9 @@
 
 Node core `exec()` wrapped to return a thunk for [co](https://github.com/visionmedia/co) with some `stdio` options.
 
+[![NPM Version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+
 ```js
 var co = require('co'),
     run = require('co-run');
@@ -71,3 +74,8 @@ $ npm install co-run
 ## License
 
   MIT
+
+[npm-image]: https://img.shields.io/npm/v/co-run.svg
+[npm-url]: https://npmjs.org/package/co-run
+[travis-image]: https://travis-ci.org/gifff/co-run.svg?branch=master
+[travis-url]: https://travis-ci.org/gifff/co-run
